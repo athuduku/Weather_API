@@ -94,7 +94,7 @@ window.onload = function(){
         timeTag.innerText = ('0'+hours).slice(-2)+":"+('0'+date.getMinutes()).slice(-2)+" PM";
       }
       else{
-        timeTag.innerText = date.getHours()+":"+date.getMinutes()+" AM";
+        timeTag.innerText = ('0'+hours).slice(-2)+":"+('0'+date.getMinutes()).slice(-2)+" AM";
       }
     }
     else{
