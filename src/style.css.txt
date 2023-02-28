@@ -1,0 +1,139 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: white;
+  font-family: arial, sans-serif;
+  padding: 0;
+}
+
+.title{
+  text-align: center;
+  color: white;
+  opacity: 0.9;
+}
+
+#weather{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: lightgreen;
+  opacity: 0.9;
+  max-width: 450px;
+  min-width: 400px;
+  color: black;
+  width: 60%;
+  margin: 2rem 0;
+  border-radius: 2rem;
+  padding: 10px 5px;
+  height: auto;
+}
+
+.user_input{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.user_input input{
+  border: 2px solid lightgray;
+  width: 60%;
+  padding: 0.5rem;
+  border-radius: 7px; 
+}
+
+.user_input button{
+  border: 2px solid lightgray;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: opacity 0.6s;
+}
+
+.user_input button: active{
+  opacity: 0.8;
+}
+
+.display{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  padding-bottom: 0;
+}
+
+#tempTag{
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.temp_icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+#descTag{
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#cityTag{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+#iconTag{
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  width: 80px;
+  height: auto;
+  max-height: 80px;
+  border: 1px solid transparent;
+}
+
+.date_time{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 550;
+}
+
+.copy_rights{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.copy_right{
+  color: white;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+#timeTag{
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0;
+}
+#dateTag{
+  margin:5px 0 15px 0;
+  padding: 0;
+}
