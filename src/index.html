@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="weather.js"></script>
+  </head>
+  <body>
+    <div id="weather">
+      <h1 class="title">Weather</h1>
+      <div class="user_input">
+        <input placeholder="Enter the city name" id="input"/>
+        <button id="button">Submit</button>
+      </div>
+      <div class="display">
+        <div class="temp_status">
+          <p id="cityTag"></p>
+          <p id="tempTag"></p>
+        </div>
+        <div class="temp_icon">
+          <p id="descTag"></p>
+          <img id="iconTag"/>
+        </div>
+      </div>
+      <div class="date_time">
+          <p id="timeTag"></p>
+          <p id="dateTag"></p>
+      </div>
+      <div class="copy_rights">
+        <p class="copy_right">	&#169; 2023 CardWeather, CA.</p>
+        <p class="copy_right">All rights reserved.</p>
+        </div>
+    </div>
+  </body>
+</html>
